@@ -1,0 +1,51 @@
+OPEN YOUR WISHNEST PROTOTYPE
+===========================
+
+You need a Windows or Mac computer, not just a phone or tablet.
+This is the web prototype. No mobile app tools or retailer accounts are needed.
+
+1. Download and extract this repository's ZIP file.
+   Windows: right-click the ZIP > Extract All.
+   Mac: double-click the ZIP.
+
+2. Install Python 3.12 or newer from:
+   https://www.python.org/downloads/
+   Windows: select "Add Python to PATH" if the installer offers it.
+
+3. Find the extracted folder that contains server.py.
+   The folder may be called curly-rotary-phone-wishnest-prototype.
+
+4. Open a terminal IN THAT FOLDER:
+   Windows: open the folder in File Explorer, type powershell into the
+   address bar at the top, and press Enter.
+   Mac: open Terminal, type cd followed by a space, drag the extracted
+   folder into Terminal, then press Return.
+
+5. Start WishNest:
+   Windows: type python server.py and press Enter.
+   Mac: type python3 server.py and press Return.
+
+6. Leave the terminal open. In Chrome, Safari, or Edge ON THAT SAME
+   COMPUTER, type this into the browser's address bar:
+   http://localhost:8000
+
+7. Select Parent corner. Create your parent passphrase and accept the
+   privacy notice. Add a child profile and save the generated profile code.
+   Optional age only suggests defaults; parents can customize permissions.
+
+8. Sign out and enter the child profile code to explore sample products.
+   If wish approval is enabled, return to Parent corner > Requests to
+   approve gifts before they enter the child's wish list.
+
+The catalog uses clearly labeled fictional products, illustrations, and prices.
+No real retailer integration, payment collection, or purchase happens here.
+No existing family data or passwords are included in this download.
+
+To stop the server, press Ctrl+C in the terminal.
+To reopen it, repeat steps 4-6. Your changes are saved in a .local folder.
+Do not share that .local folder; it contains your family's local data.
+Do not expose this development server publicly.
+
+If you only have a phone or tablet, this prototype needs a hosted demo
+before you can open it. The iOS/Android folders are development scaffolds,
+not downloadable signed apps.

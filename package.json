@@ -1,0 +1,15 @@
+{
+  "name": "wishnest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WishNest shared mobile UI and Capacitor iOS/Android packaging",
+  "scripts": {
+    "mobile:prepare": "node scripts/prepare-mobile.cjs",
+    "mobile:scaffold": "node scripts/prepare-mobile.cjs --scaffold",
+    "mobile:sync": "cap sync",
+    "mobile:android": "cap open android",
+    "mobile:ios": "cap open ios"
+  },
+  "dependencies": {"@capacitor/core":"8.6.0", "@capacitor/android":"8.6.0", "@capacitor/ios":"8.6.0"},
+  "devDependencies": {"@capacitor/cli":"8.6.0"}
+}

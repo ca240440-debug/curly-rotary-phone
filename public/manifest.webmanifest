@@ -1,0 +1,13 @@
+{
+  "id": "/",
+  "name": "WishNest",
+  "short_name": "WishNest",
+  "description": "Discover gift ideas and build your Christmas wish list.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf8f2",
+  "theme_color": "#234b3e",
+  "icons": [{"src":"/images/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
+  "share_target": {"action":"/share","method":"GET","params":{"title":"title","text":"text","url":"url"}}
+}
